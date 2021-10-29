@@ -21,3 +21,11 @@
 
 
 
+## Server details
+
+* Server uses [Game Lobby Server version 1.4.0](https://www.npmjs.com/package/game_lobby_server) to play games
+
+* [Endpoint definitions](https://bitbucket.org/urmastalimaa/game_lobby_server/src/v1.4.0/README.md).
+
+
+
