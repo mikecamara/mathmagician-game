@@ -1,0 +1,24 @@
+.expression {
+  font-size: 2em;
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.question {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.answer {
+  font-size: inherit;
+  width: 30%;
+}
+
+.expression .skip {
+  margin: 1em;
+  color: purple;
+}

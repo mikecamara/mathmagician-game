@@ -1,0 +1,92 @@
+.setup {
+  margin-top: 2em;
+  display: flex;
+  font-size: 2em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setup div {
+  margin: 15px;
+}
+
+.setup .start {
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: #2db52d;
+  border-radius: 8px;
+  border: 4px;
+  color: #FFF;
+  border-style: none;
+  width: 250px;
+  height: 100px;
+  filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.3));
+}
+
+.setup .start:hover {
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: #2db52d;
+  border-radius: 8px;
+  border: 4px;
+  color: #FFF;
+  border-style: none;
+  width: 250px;
+  height: 100px;
+  cursor: pointer;
+  transform:scale(0.98,0.98);
+  -webkit-transform:scale(0.98,0.98);
+  -moz-transform:scale(0.98,0.98);
+}
+
+.setup .rounds {
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+}
+
+.setup .rounds input {
+  font-size: 1em;
+  font-size: 1em;
+  text-align: center;
+  width: 15%;
+}
+
+.game-logo {
+  background: -webkit-linear-gradient(rgb(255, 230, 0), rgb(250, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+  filter: drop-shadow(2px 2px #333);
+  letter-spacing: -2px;
+  padding: 10px;
+}
+
+.welcome {
+  text-align: center;
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 700;
+  filter: drop-shadow(2px 2px #333);
+  letter-spacing: -1px;
+}
+
+.rounds {
+  color: rgb(44, 44, 44);
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.rounds-input {
+  margin-left: 15px;
+  border: 2px solid #a7edff;
+  border-radius: 7px;
+}
+
+.rounds-input:focus { 
+  outline: none;
+  border-color: #71e3ff;
+  box-shadow: 0 0 10px #88d9ff;
+}

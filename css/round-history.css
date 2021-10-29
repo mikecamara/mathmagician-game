@@ -1,0 +1,48 @@
+.round-history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.round-history-item {
+  margin: 0.5em;
+  width: 100%;
+  text-align: right;
+}
+
+.round-history.finished .round-history-item {
+  text-align: center;
+}
+
+.round-history-item.correct-fast {
+  color: green;
+}
+.round-history-item.correct-slow {
+  color: orange;
+}
+
+.round-history-item.incorrect {
+  color: red;
+}
+
+.previous-games {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 30%;
+}
+
+.previous-game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.previous-game .round-history {
+  width: 100%;
+}
+
+.previous-game-index {
+  color: purple;
+}

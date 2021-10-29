@@ -1,0 +1,31 @@
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true
+  },
+  "ignorePatterns": ["public/", "zipHomework.js"],
+  "plugins": ["import", "react"],
+  "extends": [
+    "eslint:recommended",
+    "google",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "require-jsdoc": "off",
+    "no-console": 2,
+    "react/react-in-jsx-scope": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
